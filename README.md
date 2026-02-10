@@ -1,24 +1,16 @@
 # BFHL API
 
-REST API for Bajaj Finserv Health qualifier.
+REST API for Bajaj Finserv Health.
 
 ## Endpoints
 
-### GET /health
-Returns API health status.
+- GET /health - Health check
+- POST /bfhl - Main API endpoint
 
-### POST /bfhl
-Handles the following operations:
-- `fibonacci`: Returns Fibonacci series
-- `prime`: Filters prime numbers from array
-- `lcm`: Calculates LCM of array
-- `hcf`: Calculates HCF of array
-- `AI`: Returns single-word AI response
+## Supported Operations
 
-## Deployment
-
-Deployed on Vercel.
-
-## Environment Variables
-
-- `GEMINI_API_KEY`: Google Gemini API key for AI functionality
+- fibonacci
+- prime
+- lcm
+- hcf
+- AI
